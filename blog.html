@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="css/common.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="nav_area">
+                <div class="nav_element">
+                    <div class="logo_area">
+                        <a href="#">
+                            <img src="./img/logo.png"
+                                 alt="Logo">
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <div class="hamburger_icon">
+                            <button id="toggle">
+                                <iconify-icon icon="gg:menu"></iconify-icon>
+                            </button>
+                        </div>
+                        <div class="user_info">
+                            <div class="">
+                                <a href="#"
+                                   class=" text-black hover:underline hover:text-green-400"> Back To website </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- ==========Header-end==== -->
+    <main>
+        <section>
+            <div class="dashboard_area">
+                <div id="dashboard_left">
+                    <div class="desh_menu">
+                        <a href="index.html">
+                            <div class="item_link">
+                                <div class="icone">
+                                    <iconify-icon icon="bi:speedometer2"></iconify-icon>
+                                    <div class="link_name">
+                                        <span class="h_link">Dashboard</span>
+                                    </div>
+                                </div>
+                                <div class="arrow">
+                                    <span class="show_arrow">
+                                        <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="blog.html">
+                            <div class="item_link">
+                                <div class="icone">
+                                    <iconify-icon icon="bxs:user-detail"></iconify-icon>
+                                    <div class="link_name">
+                                        <span class="h_link">Blog</span>
+                                    </div>
+                                </div>
+                                <div class="arrow">
+                                    <span class="show_arrow">
+                                        <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="temmember.html">
+                            <div class="item_link">
+                                <div class="icone">
+                                    <iconify-icon icon="ep:message"></iconify-icon>
+                                    <div class="link_name">
+                                        <span class="h_link">Team Member</span>
+                                    </div>
+                                </div>
+                                <div class="arrow">
+                                    <span class="show_arrow">
+                                        <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="dashbord_middel"></div>
+                <div class="dashboard_right">
+                    <div class="dashboard_content">
+                        <div class="heading flex justify-between items-center py-4 px-4">
+                            <h2 class=" text-xl text-Nblue  font-bold">Create Blog</h2>
+                        </div>
+                        <div class="px-10 py-20">
+                            <form action="">
+                                <div class="grid grid-cols-2 gap-6">
+                                    <div class="">
+                                        <p class=" text-sm text-slate-500  font-light">Post Name</p>
+                                        <input class=" border border-black py-2 px-3 w-full focus:outline-none rounded-md"
+                                               type="text">
+                                    </div>
+                                    <div class="">
+                                        <p class=" text-sm text-slate-500  font-light">Author Name</p>
+                                        <input class=" border border-black py-2 px-3 w-full focus:outline-none rounded-md"
+                                               type="text">
+                                    </div>                              
+                                   
+                                </div>
+
+                                <div class=" mt-10">
+                                    <p class=" text-sm text-slate-500  font-light">Blog Content</p>
+                                    <textarea name="" id="" cols="30" rows="10" class="border border-black py-2 px-3 w-full focus:outline-none rounded-md"></textarea>
+                                </div>
+                                <div class="grid grid-cols-2 gap-6">
+                                    <div class="">
+                                        <p class=" text-sm text-slate-500  font-light">Blog Image</p>
+                                        <input class=""
+                                               type="file">
+                                    </div>
+                                    <div class=" flex justify-end">
+                                        <input class=" text-white bg-Nblue px-6  hover:bg-black text-base cursor-pointer rounded-md"
+                                               type="submit"
+                                               value="Add Member">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    <script src="./js/jquary..js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
